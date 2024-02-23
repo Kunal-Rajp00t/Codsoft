@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="Project3.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="logo.png" id="logo" alt="">
+        <span class="fs-4">The GS Institute</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href=".intro" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href=".course-section" class="nav-link">Courses</a></li>
+        <li class="nav-item"><a href=".container" class="nav-link">Payment</a></li>
+        <li class="nav-item"><a href="contact-section" class="nav-link">Contact</a></li>
+        <!-- <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
+      </ul>
+    </header>
+
+
+    <div class="intro">
+      <div class="textSide">
+        <h4>Welcome to...</h4>
+        <h1>The GS Institute</h1>
+        <p>Lorem ipsum dolor, sit amet Lorem, ipsum.consectetur adipisicing elit. Aliquam iure eum rerum eveniet magni. Suscipit
+          consectetur adipisicing elit. Blanditiis provident eum qui ut distinctio facilis nobis aspernatur quisquam
+          consequuntur incidunt dicta voluptatum labore similique quidem, neque voluptatem dolor! Assumenda, vero?
+          adipisicing elit. Atque, dolor!</p>
+        <button>Enroll Now</button>
+      </div>
+      <div class="imageSide"><img src="Image1.jpg" alt="" srcset=""></div>
+    </div>
+    <hr>
+
+
+    <div class="course-section">
+      <h1>Our Courses</h1>
+      <div class="courses">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Agni Batch</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Complete Polity+History</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="card-link">Join Now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Sigma Batch</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">World Geography & Economics</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="card-link">Join Now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">AlphaPlus Batch</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Complete History + Current Affairs</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="card-link">Join Now</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="newCourse">
+
+
+        <div class="card mb-3" style="max-width: 540px;"> <!-- bg-primary -->
+          <div class="row g-0">
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Foundation Batch</h5>
+                <p class="card-text">Presenting our new Batch with the power of Agni Batch + Sigma Batch.Complete
+                  Polity, History, Economics and World Geography with best faculty. Batch starts from March-2024, enroll
+                  now to get EarlyBird discount.
+                <h6 class="text-success">Use code 'NEW40' to get 40% off.</h6>
+                </p>
+                <p class="card-text"><small class="text-body-secondary">Offer ends in 3 Days.</small></p>
+                <button id="joinNow">Buy Now</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="emblem.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- Payment Section -->
+    <div class="mycontainer">
+      <h1>Payment</h1>
+      <div class="ptmform">
+        <form>
+          <div class="row g-3 mb-3">
+            <div class="col mb-2">
+              <label for="exampleInputEmail1" class="form-label"><b>Card Number</b></label>
+              <input type="text" class="form-control"   aria-label="First name">
+              <div id="emailHelp" class="form-text">16-Digit number.</div>
+            </div>
+            <div class="col mb-2" >
+              <label for="exampleInputEmail1" class="form-label"><b>CVV</b></label>
+              <input type="text" class="form-control" aria-label="Last name">
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"><b>Owner Name</b></label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Name as per Debit/Credit Card.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"><b>PIN</b></label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Save Information as per RBI guidlines. </label>
+          </div>
+          <button type="submit" class="btn btn-success ps-5 p-1 pe-5"><b>Pay Now</b></button>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-section">
+      <h1>Contact Us</h1>
+      <div class="form">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Please enter your full name.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Address</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"> </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Save Information for next time. </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <!-- Footer -->
+    <footer>
+      <div class="myFoot">
+        <div class="links">
+          Useful Links: <a href="">Youtube</a> <a href="">Twitter</a> <a href="">Instagram</a>
+        </div>
+        <div class="endText">
+          © 2024 Company, Inc
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="Project3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bgc{
+    background-color: #9cc5a1;
+}
+#logo{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: .5rem;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textSide{
+    padding: 2rem;
+    margin-right: 3rem;
+}
+.textSide h4{
+    color: rgb(99, 99, 99);
+    font-weight: 700;
+}
+.textSide h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textSide button{
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: #49a078;
+    font-weight: 700;
+    color: black;
+}
+.textSide button:hover{
+    color: #49a078;
+    background-color: black;
+}
+.imageSide img{
+    width: 25rem;
+    height: 25rem;  
+    border-radius: 20rem ;
+}
+.course-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.course-section h1{
+   text-align: center;
+   margin-bottom: 1.5rem;
+}
+.courses{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.newCourse{
+    margin: 2rem 1rem;
+}
+#joinNow{
+    padding: 2px 6px;
+    border: 1px solid black;
+    border-radius: 4px;
+    /* color: black; */
+    background-color: #9cc5a1;
+    color: #062e1b;
+    font-weight: 555;
+}
+#joinNow:hover{
+    color: #9cc5a1;
+    /* background-color: black; */
+    background-color: #062e1b;
+}
+.mycontainer{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+}
+.mycontainer h1{
+    text-align: center;
+}
+
+.ptmform {
+    position: relative;  
+    padding: 1.5rem 3rem;
+    border-radius: 6px;
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+.ptmform::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("atmcard.avif");
+    background-size: cover; /* Ensure the background image covers the entire container */
+    opacity: 0.5; /* Adjust the opacity value as needed */
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
+    border-radius: inherit; /* Inherit border-radius from the parent element */
+}
+
+.contact-section{
+    text-align: center;
+  
+}
+.form{
+    background-color: #c1e0c6;
+    padding: 1.5rem 3rem;
+    border-radius: 6px;
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+.myFoot{
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #858585;
+    font-weight: 700;
+}
+.links{
+    margin: 3rem .1rem 2rem .1rem;
+    display: flex;
+    align-items: center;
+    width: 38%;
+    justify-content: space-around;
+}
+.links a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.links a:hover{
+    text-decoration: underline;
+}
